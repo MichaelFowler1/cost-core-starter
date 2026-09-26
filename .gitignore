@@ -1,0 +1,13 @@
+# What the examples produce: rebuild it with python run_all.py
+results/
+
+# Your own work goes in mine/, which git never sees. Real program,
+# contractor or sponsor data doesn't belong on GitHub.
+mine/
+
+# Excel's lock files while a workbook is open
+~$*
+
+__pycache__/
+*.pyc
+.venv/
