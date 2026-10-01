@@ -1,1 +1,1 @@
-cost-core[plots,optimize]==2.7.0
+cost-core[plots,optimize]==2.8.0
