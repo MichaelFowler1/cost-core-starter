@@ -16,6 +16,8 @@ EX = HERE / "examples"
 
 RUNS = {
     "cost-risk": ["cost-risk", "--data", EX / "estimate.xlsx"],
+    "cer": ["cer", "--data", EX / "cer.xlsx"],
+    "phase": ["phase", "--data", EX / "phase.xlsx"],
     "evm": ["evm", "--data", EX / "evm.xlsx", "--units", "thousands"],
     "schedule": ["schedule-check", "--mspdi", EX / "schedule.xml"],
     "jcl": ["jcl", "--spec", EX / "jcl.xlsx"],

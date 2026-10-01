@@ -30,10 +30,12 @@ lines in that folder.
 | File | What it is | What you get |
 | --- | --- | --- |
 | `examples/estimate.xlsx` | A ground station upgrade: eight WBS elements with low, most likely and high, three risks, correlations | How likely the estimate is to overrun, the cost at 50/70/80/90% confidence, what drives the risk |
+| `examples/cer.xlsx` | Twelve past radar programs, cost against weight and power, and two new radars to price | The CER fitted three ways (OLS, MUPE, ZMPE), what each driver does to cost, and each new radar's estimate with a range |
+| `examples/phase.xlsx` | Five estimate lines across RDT&E, procurement and O&M, with a spending profile each and an invented 2% index | The budget by fiscal year and appropriation, in then-year dollars, and what inflation adds |
 | `examples/evm.xlsx` | Monthly earned value for three control accounts | CPI, SPI, warning signs and a forecast at completion with a range |
 | `examples/schedule.xml` | A small Microsoft Project schedule saved as XML | The DCMA 14-point check |
 | `examples/jcl.xlsx` | A spacecraft from design to launch, with durations, costs and risks | The joint cost and schedule confidence of the plan |
-| `examples/aoa.xlsx` | Three ways to replace a sensor, costed over their life | Which is cheapest, how often, and which are dominated |
+| `examples/aoa.xlsx` | Three ways to replace a sensor, and keeping it, costed over their life | Which is cheapest, how often, which are dominated, and whether each pays for itself against keeping the current system |
 | `examples/portfolio.xlsx` | Candidate programs, funding options and a budget by year | The best set to fund, and the chance each year goes over |
 
 Every workbook has an Instructions sheet saying what goes in each column.
