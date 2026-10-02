@@ -31,6 +31,10 @@ workbooks in `examples`, and press **Run**. The answer shows in the window,
 with the report and slides a click away. `ce-core gui --shortcut` puts it on
 your desktop.
 
+![The cost-core window after running estimate.xlsx: the key numbers as tiles and what they mean in plain sentences](docs/gui-answer.png)
+
+![The Chart tab after running aoa.xlsx: each alternative's life-cycle cost as an S-curve](docs/gui-chart.png)
+
 ## What's here
 
 | File | What it is | What you get |
