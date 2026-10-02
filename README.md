@@ -19,11 +19,17 @@ python run_all.py
 
 The install takes a few minutes the first time (it brings in numpy, scipy,
 matplotlib and friends). After that the cost risk example takes about 15
-seconds and all six about a minute and a half. Then open
+seconds and all eight under two minutes. Then open
 `results/cost-risk/report.xlsx`, or run just one: `python run_all.py cost-risk`.
 
 No git? Click **Code**, then **Download ZIP**, unzip it and run the last two
 lines in that folder.
+
+**Rather click than type?** After the install, `ce-core gui` opens cost-core
+in a window: pick a job, press **See an example** or **Choose...** one of the
+workbooks in `examples`, and press **Run**. The answer shows in the window,
+with the report and slides a click away. `ce-core gui --shortcut` puts it on
+your desktop.
 
 ## What's here
 
@@ -38,8 +44,11 @@ lines in that folder.
 | `examples/aoa.xlsx` | Three ways to replace a sensor, and keeping it, costed over their life | Which is cheapest, how often, which are dominated, and whether each pays for itself against keeping the current system |
 | `examples/portfolio.xlsx` | Candidate programs, funding options and a budget by year | The best set to fund, and the chance each year goes over |
 
-Every workbook has an Instructions sheet saying what goes in each column.
-Every number in them is invented.
+In every workbook the cells to fill in are yellow, required columns have
+dark blue headings and optional ones light blue, and hovering over a heading
+says what goes there. A small arrow in a cell means a drop-down of the allowed
+answers, and each Instructions sheet opens with the colour key. Every number
+in them is invented.
 
 ## Now with your own numbers
 
